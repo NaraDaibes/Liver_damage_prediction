@@ -1,2 +1,31 @@
 # Liver_damage_prediction
 This project focuses on predicting the stage of liver damage (Cirrhosis) using machine learning techniques. The dataset was analyzed, preprocessed, and used to build supervised logistic regression model and a sequential neural network deep learning model that can identify different stages of liver damage. 
+____________________________________________________________________________________________________________________________________________________________________
+**Dataset**
+
+* Source:Kaggle
+
+* Number of samples: 418
+
+* Number of features: 20
+
+* Target variable: stage
+
+**Data Preprocessing**
+
+* Handling missing values:
+    * Rows with excessive missing values were dropped during the data cleaning phase to ensure better data quality and model performance.
+* Encoding categorical variables
+    * Using column transformer. 
+* Feature scaling
+* Handle imbalanced classes
+    * SMOTE.
+* Feature selection
+    * Wrapper method.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## **Exploratory Visualizations**
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## **Multiclassification Supervised Machine learning**
+**logistic Regression**
+
