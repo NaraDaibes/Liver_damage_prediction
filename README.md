@@ -24,10 +24,12 @@ ________________________________________________________________________________
     * Wrapper method.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## **Exploratory Visualizations**
-![Heatmap](images/Corr.png)
-![Heatmap](images/Count.png)
-![Heatmap](images/Box.png)
 
+<p float="left">
+  <img src="images/Corr.png" width="30%" />
+  <img src="images/count.png" width="30%" />
+  <img src="images/Box.png" width="30%" />
+</p>
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## **Multiclassification Supervised Machine learning**
