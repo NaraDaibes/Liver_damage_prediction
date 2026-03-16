@@ -36,5 +36,10 @@ ________________________________________________________________________________
 **logistic Regression**
 
 ## **default model**
+<p float="left">
+  <img src="images/TrainingD.png" width="30%" />
+  <img src="images/TestD.png" width="30%" />
+</p>
 
+## **
 
