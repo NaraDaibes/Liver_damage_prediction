@@ -35,3 +35,6 @@ ________________________________________________________________________________
 ## **Multiclassification Supervised Machine learning**
 **logistic Regression**
 
+## **default model**
+
+
