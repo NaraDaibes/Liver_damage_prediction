@@ -61,7 +61,16 @@ ________________________________________________________________________________
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## **Feature engeneering**
 * PCA vs KMeans
-  *PCA 
-
+  
+  * PCA 
+<p float="left">
+  <img src="images/TrainPCA.png" width="30%" />
+  <img src="images/TestPCA.png" width="30%" />
+</p>
+   * KMeans
+<p float="left">
+  <img src="images/TrainKM.png" width="30%" />
+  <img src="images/TestKM.png" width="30%" />
+</p>
 
 
