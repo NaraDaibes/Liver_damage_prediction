@@ -72,12 +72,32 @@ ________________________________________________________________________________
   <img src="images/TrainKM.png" width="30%" />
   <img src="images/TestKM.png" width="30%" />
 </p>
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
 ## **Feature selection**
-* Wrapper Method
+  * Wrapper Method
+  
 <p float="left">
   <img src="images/TrainW.png" width="30%" />
   <img src="images/TestW.png" width="30%" />
+</p>
+  * Permutaion Importances after the feature selection 
+|Feature_name|permutation importance|
+|----------|--------------|
+|numeric__Copper|0.0205|
+|numeric__Prothrombin|0.0205|
+|numeric__Cholesterol|0.0038|
+|categorical__Ascites_Y|0.0026|
+|categorical__Ascites_N|0.0026|
+
+------------------------------------------------------------------------------------------------------------------------------------
+## **Neural Network Model**
+* 1 hidden layer ( 8 neurons ).
+* 1 Dropout layer (0.3).
+* 100 epochs.
+<p float="left">
+  <img src="images/accuracy.png" width="30%" />
+  <img src="images/TestN.png" width="30%" />
 </p>
 
 
