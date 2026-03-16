@@ -41,5 +41,27 @@ ________________________________________________________________________________
   <img src="images/TestD.png" width="30%" />
 </p>
 
-## **
+## **Tuned model**
+<p float="left">
+  <img src="images/TrainL.png" width="30%" />
+  <img src="images/TestL.png" width="30%" />
+</p>
+
+## **Feature Importaces**
+* Permutation Importance
+
+|Feature_name|permutation importance|
+|----------|--------------|
+|categorical__Hepatomegaly_Y|0.032051|
+|numeric__Albumin|0.015385|
+|numeric__Cholesterol|0.012821|
+|numeric__Prothrombin|0.011538|
+|categorical__Sex_F|0.011538|
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## **Feature engeneering**
+* PCA vs KMeans
+  *PCA 
+
+
 
