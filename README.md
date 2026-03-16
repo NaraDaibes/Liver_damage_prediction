@@ -82,6 +82,7 @@ ________________________________________________________________________________
   <img src="images/TestW.png" width="30%" />
 </p>
   * Permutaion Importances after the feature selection 
+  
 |Feature_name|permutation importance|
 |----------|--------------|
 |numeric__Copper|0.0205|
