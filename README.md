@@ -104,8 +104,9 @@ __
 </p>
 
 ## **limitaions**
-* Limited sample size.
-* Potential Class Imbalanced. 
+The main limitation of this study was the small dataset and the high proportion of missing values, with approximately 25% of the records containing missing data. Many of the same observations were missing multiple clinical features simultaneously, making reliable imputation difficult without introducing bias. As a result, the limited amount of complete data constrained the performance of both the Logistic Regression and deep learning models, despite applying preprocessing, feature engineering, and optimization techniques.
+
+This is concise, professional, and highlights the two key limitations: small dataset and extensive missing data.
 ## **Results**
 A Logistic Regression model was initially developed as the baseline machine learning model for this study. Several optimization techniques were explored to improve its predictive performance, including feature selection, feature importance analysis, Principal Component Analysis (PCA), K-Means clustering, feature engineering, and Synthetic Minority Oversampling Technique (SMOTE) to address class imbalance. However, none of these techniques resulted in a significant improvement in the model's performance. The evaluation metrics remained relatively stable, indicating that the model was limited by the quality of the available data rather than the choice of preprocessing or optimization methods.
 
