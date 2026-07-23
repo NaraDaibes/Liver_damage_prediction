@@ -107,6 +107,13 @@ __
 * Limited sample size.
 * Potential Class Imbalanced. 
 ## **Results**
+A Logistic Regression model was initially developed as the baseline machine learning model for this study. Several optimization techniques were explored to improve its predictive performance, including feature selection, feature importance analysis, Principal Component Analysis (PCA), K-Means clustering, feature engineering, and Synthetic Minority Oversampling Technique (SMOTE) to address class imbalance. However, none of these techniques resulted in a significant improvement in the model's performance. The evaluation metrics remained relatively stable, indicating that the model was limited by the quality of the available data rather than the choice of preprocessing or optimization methods.
+
+The primary challenge was the high percentage of missing data in the dataset. Approximately 25% of the dataset contained missing values, with many records missing multiple features simultaneously rather than isolated values. For example, variables such as Drug, Ascites, Hepatomegaly, Spiders, Cholesterol, Copper, Alkaline Phosphatase (Alk_Phos), SGOT, and Triglycerides had over 100 missing observations each. Because the missing values were concentrated within the same samples, simple imputation techniques could have introduced substantial bias and reduced the reliability of the data. As a result, the missing data limited the effectiveness of both traditional machine learning and feature engineering techniques.
+
+To further investigate the problem, a deep learning model was also implemented. As shown in the training curves, both the training and validation accuracy gradually increased before stabilizing at approximately 55–60%, while the training and validation loss consistently decreased and converged. Although the deep learning model learned meaningful patterns from the data without severe overfitting, its performance remained modest, suggesting that the quality and completeness of the dataset were the primary limiting factors rather than the choice of algorithm.
+
+Overall, these findings indicate that improving data completeness and reducing the amount of missing information would likely have a greater impact on model performance than applying additional feature engineering or model optimization techniques.
 
 
 
